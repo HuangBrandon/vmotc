@@ -4,13 +4,14 @@ import Footer from '../components/Footer'
 export default function Home() {
     return (
         <div className="home-wrapper">
-            <Header/>
             <div className='home-content-wrapper'>
                 <div className="title-text">
                     Visual Memories of Tippecanoe Communities
                 </div>
                 <div className="center-column">
                     <div className="column">
+                        <img src="/VisualMemories.jpg" width={500} className="cover-image" />
+                        <img src="/VisualMemories.jpg" width={500} className="cover-image" />
                         <img src="/VisualMemories.jpg" width={500} className="cover-image" />
                     </div>
 
@@ -37,7 +38,6 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            <Footer/>
         </div>
     )
 }
