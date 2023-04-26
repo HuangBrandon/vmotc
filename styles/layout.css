@@ -1,7 +1,44 @@
 .layout-header {
+    height: 50px;
+    width: 100vw;
+    padding-left: 20%;
+    padding-right: 20%;
+    background-color: black;
+    color: white;
     display: inline-block;
 }
 
 .layout-footer {
+    height: 50px;
+    width: 100vw;
+    padding-left: 20%;
+    padding-right: 20%;
+    background-color: black;
+    color: white;
+    display: inline-block;
+}
 
+.container img {
+    height: 90%;
+    display: inline;
+}
+
+.header-links {
+    float: right;
+    padding: 10px;
+    display: inline;
+}
+
+.header-links:hover {
+    text-decoration: underline;
+}
+
+.footer-links {
+    float: right;
+    padding: 10px;
+    display: inline;
+}
+
+.footer-links:hover {
+    text-decoration: underline;
 }

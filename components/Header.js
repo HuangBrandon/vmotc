@@ -1,17 +1,18 @@
-import Image from 'next/image'
 
-function Header() {
+export default function Header() {
     return(
         <div className="layout-header">
             <title>Tippecanoe Memories</title>
-            <Image
-              src="/PU-H-Full-Rev-RGB.svg"
-              alt="Purdue Logo"
-              width={100}
-              height={24}
-            />Links and stuff
+
+            <span className="container">
+               <img src="/PU-H-Full-Rev-RGB.svg" alt="Purdue Logo" />
+            </span>
+            <a className="header-links" href='https://honors.purdue.edu'>
+                Link 1
+            </a>
+            <a className="header-links" href='https://purdue.edu'>
+                Link 2
+            </a>
         </div>
     )
 }
-
-export default Header
